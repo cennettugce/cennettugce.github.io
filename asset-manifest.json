@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cennettugce/cennettugce.github.io/static/css/main.f855e6bc.css",
-    "main.js": "/cennettugce/cennettugce.github.io/static/js/main.3e1da7fa.js",
-    "static/js/453.477c185e.chunk.js": "/cennettugce/cennettugce.github.io/static/js/453.477c185e.chunk.js",
-    "index.html": "/cennettugce/cennettugce.github.io/index.html",
-    "main.f855e6bc.css.map": "/cennettugce/cennettugce.github.io/static/css/main.f855e6bc.css.map",
-    "main.3e1da7fa.js.map": "/cennettugce/cennettugce.github.io/static/js/main.3e1da7fa.js.map",
-    "453.477c185e.chunk.js.map": "/cennettugce/cennettugce.github.io/static/js/453.477c185e.chunk.js.map"
+    "main.css": "/staysane/static/css/main.f855e6bc.css",
+    "main.js": "/staysane/static/js/main.bb663f2a.js",
+    "static/js/453.477c185e.chunk.js": "/staysane/static/js/453.477c185e.chunk.js",
+    "index.html": "/staysane/index.html",
+    "main.f855e6bc.css.map": "/staysane/static/css/main.f855e6bc.css.map",
+    "main.bb663f2a.js.map": "/staysane/static/js/main.bb663f2a.js.map",
+    "453.477c185e.chunk.js.map": "/staysane/static/js/453.477c185e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.3e1da7fa.js"
+    "static/js/main.bb663f2a.js"
   ]
 }
