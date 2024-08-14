@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/staysane/static/css/main.274798cd.css",
-    "main.js": "/staysane/static/js/main.716ae780.js",
+    "main.js": "/staysane/static/js/main.42e9a569.js",
     "static/js/453.477c185e.chunk.js": "/staysane/static/js/453.477c185e.chunk.js",
     "index.html": "/staysane/index.html",
     "main.274798cd.css.map": "/staysane/static/css/main.274798cd.css.map",
-    "main.716ae780.js.map": "/staysane/static/js/main.716ae780.js.map",
+    "main.42e9a569.js.map": "/staysane/static/js/main.42e9a569.js.map",
     "453.477c185e.chunk.js.map": "/staysane/static/js/453.477c185e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.274798cd.css",
-    "static/js/main.716ae780.js"
+    "static/js/main.42e9a569.js"
   ]
 }
