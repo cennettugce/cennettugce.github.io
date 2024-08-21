@@ -9,6 +9,7 @@ function App() {
     const [showKitten, setShowKitten] = useState(false);
     const [pleaseCount, setPleaseCount] = useState(1);
     const [buttonClicked, setButtonClicked] = useState(false);
+    const [isCat, setIsCat] = useState(true);
 
     const handleClick = () => {
         setBackgroundColor('#C8A2C8'); // Lilac color
@@ -20,6 +21,10 @@ function App() {
         setButtonClicked(true);
     };
 
+    const handleImageClick = () => {
+        setIsCat(!isCat); // Toggle between cat and dog
+    };
+
     return (
         <div className="App" style={{ backgroundColor: backgroundColor }}>
             <header className="App-header">
@@ -27,9 +32,10 @@ function App() {
                 {showConfetti && <Confetti />}
                 {showKitten && (
                     <img
-                        src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif"
-                        alt="Begging Kitten"
-                        style={{ marginTop: '20px', width: '300px', height: 'auto' }}
+                        src={isCat ? "https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" : "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2hwenV0Ym5sanZtenYwazVsYnd6ZTE0YzhhbmdpbWluMWp6eHRhdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ehVD71SQYsCHWrWgvs/giphy.gif"}
+                        alt={isCat ? "Begging Kitten" : "Excited Dog"}
+                        style={{ marginTop: '20px', width: '300px', height: 'auto', cursor: 'pointer' }}
+                        onClick={handleImageClick}
                     />
                 )}
                 <div style={{ marginTop: '20px' }}>
